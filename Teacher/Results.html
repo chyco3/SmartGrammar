@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Teacher | Results</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/favicon-114x114.png">
+    <!--Loading bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <link type="text/css" rel="stylesheet" href="styles/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/animate.css">
+    <link type="text/css" rel="stylesheet" href="styles/all.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    <link type="text/css" rel="stylesheet" href="styles/style-responsive.css">
+    <link type="text/css" rel="stylesheet" href="styles/zabuto_calendar.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/pace.css">
+    <link type="text/css" rel="stylesheet" href="styles/jquery.news-ticker.css">
+</head>
+<body>
+    <div>
+        <!--BEGIN THEME SETTING-->
+
+        <!--END THEME SETTING-->
+        <!--BEGIN BACK TO TOP-->
+        <a id="totop" style="display: inline;" href="results.html"><i class="fa fa-angle-up"></i></a>
+        <!--END BACK TO TOP-->
+        <!--BEGIN TOPBAR-->
+        <div id="header-topbar-option-demo" class="page-header-topbar">
+            <nav id="topbar" role="navigation" style="margin-bottom: 0;" data-step="3" class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target=".sidebar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a id="logo" href="dashboard.html" class="navbar-brand"><span class="fa fa-rocket"></span><span class="logo-text">Smart Grammar</span><span style="display: none" class="logo-text-icon">µ</span></a></div>
+            <div class="topbar-main"><a id="menu-toggle" href="#" class="hidden-xs"><i class="fa fa-bars"></i></a>
+
+                <form id="topbar-search" action="" method="" class="hidden-sm hidden-xs">
+                    <div class="input-icon right text-white"><a href="#"><i class="fa fa-search"></i></a><input type="text" placeholder="Search here..." class="form-control text-white"/></div>
+                </form>
+                <div class="news-update-box hidden-xs"><span class="text-uppercase mrm pull-left text-white">News:</span>
+                    <ul id="news-update" class="ticker list-unstyled">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <ul class="nav navbar navbar-top-links navbar-right mbn">
+
+                    <li class="dropdown"><a data-hover="dropdown" href="#" class="dropdown-toggle"><i class="fa fa-envelope fa-fw"></i><span class="badge badge-orange">7</span></a>
+
+                    </li>
+
+                    <li class="dropdown topbar-user"><a data-hover="dropdown" href="#" class="dropdown-toggle"><img src="images/avatar/48.jpg" alt="" class="img-responsive img-circle"/>&nbsp;<span class="hidden-xs">John Keating</span>&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-user pull-right">
+                            <li><a href="MyProfile.html"><i class="fa fa-user"></i>My Profile</a></li>
+
+                            <li><a href="TeachersMessages.html"><i class="fa fa-envelope"></i>My Inbox<span class="badge badge-danger">3</span></a></li>
+                            <li><a href="#"><i class="fa fa-tasks"></i>My Tasks<span class="badge badge-success">7</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href="Login.html"><i class="fa fa-key"></i>Log Out</a></li>
+                        </ul>
+                    </li>
+                    <li id="topbar-chat" class="hidden-xs"><a href="javascript:void(0)" data-step="4" data-intro="&lt;b&gt;Form chat&lt;/b&gt; keep you connecting with other coworker" data-position="left" class="btn-chat"><i class="fa fa-comments"></i><span class="badge badge-info">3</span></a></li>
+                </ul>
+        </nav>
+      </div>
+
+        </div>
+        <!--END TOPBAR-->
+        <div id="wrapper">
+            <!--BEGIN SIDEBAR MENU-->
+            <nav id="sidebar" role="navigation" data-step="2" data-intro="Template has &lt;b&gt;many navigation styles&lt;/b&gt;"
+                data-position="right" class="navbar-default navbar-static-side">
+            <div class="sidebar-collapse menu-scroll">
+                <ul id="side-menu" class="nav">
+
+                     <div class="clearfix"></div>
+                    <li><a href="dashboard.html"><i class="fa fa-tachometer fa-fw">
+                        <div class="icon-bg bg-orange"></div>
+                    </i><span class="menu-title">Dashboard</span></a></li>
+                    <li><a href="Topics.html"><i class="fa fa-file-o fa-fw">
+                        <div class="icon-bg bg-yellow"></div>
+                    </i><span class="menu-title">Topics</span></a>
+
+                    </li>
+
+                    <li><a href="Tests.html"><i class="fa fa-edit fa-fw">
+                        <div class="icon-bg bg-violet"></div>
+                    </i><span class="menu-title">Tests</span></a>
+
+                    </li>
+                    <li  class="active"><a href="Results.html"><i class="fa fa-bar-chart-o fa-fw">
+                        <div class="icon-bg bg-orange"></div>
+                    </i><span class="menu-title">Results</span></a>
+
+                    </li>
+                    <li><a href="Sentences.html"><i class="fa fa-sitemap fa-fw">
+                        <div class="icon-bg bg-dark"></div>
+                    </i><span class="menu-title">Sentences</span></a>
+
+                    </li>
+                    <li><a href="Students.html"><i class="fa fa-database fa-fw">
+                        <div class="icon-bg bg-red"></div>
+                    </i><span class="menu-title">Students</span></a>
+
+                    </li>
+
+                  </br></br>
+
+                  <li></li>
+                  <li><a href="MyProfile.html"><i class="fa fa-gift fa-fw">
+                      <div class="icon-bg bg-grey"></div>
+                  </i><span class="menu-title">My Profile</span></a>
+
+                  </li>
+                  <li><a href="TeachersMessages.html"><i class="fa fa-envelope-o">
+                      <div class="icon-bg bg-primary"></div>
+                  </i><span class="menu-title">My Emails</span></a>
+
+                  </li>
+
+                </ul>
+            </div>
+        </nav>
+            <!--END SIDEBAR MENU-->
+
+            <!--BEGIN PAGE WRAPPER-->
+            <div id="page-wrapper">
+                <!--BEGIN TITLE & BREADCRUMB PAGE-->
+                <div id="title-breadcrumb-option-demo" class="page-title-breadcrumb">
+                    <div class="page-header pull-left">
+                        <div class="page-title">
+                            Results</div>
+                    </div>
+                    <ol class="breadcrumb page-breadcrumb pull-right">
+                        <li><i class="fa fa-home"></i>&nbsp;<a href="dashboard.html">Home</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+                        <li class="hidden"><a href="#">Results</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+                        <li class="active">Results</li>
+                    </ol>
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <!--END TITLE & BREADCRUMB PAGE-->
+                <!--BEGIN CONTENT-->
+                <div class="page-content">
+              <div class="col-md-12">
+                  <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab-avgResult" data-toggle="tab">Avg Result by Groups</a></li>
+                      <li><a href="#tab-studentResult" data-toggle="tab">Result sort by Student</a></li>
+                      <li><a href="#tab-resultTest" data-toggle="tab">Result sort by Test</a></li>
+                  </ul>
+                  <div id="generalTabContent" class="tab-content">
+                      <div id="tab-avgResult" class="tab-pane fade in active">
+                        <div id="tab-general">
+                          <div class="row mbl">
+                          <div class="col-lg-9">
+                                <div class="portlet box">
+                                    <div class="portlet-header">
+                                        <div class="caption">Result according average marks for groups</div>
+                                        <div class="tools"><i class="fa fa-chevron-up"></i><i class="fa fa-refresh"></i><i class="fa fa-times"></i></div>
+                                    </div>
+                                    <div class="portlet-body">
+                                        <div id="bar-chart" style="width: 100%; height:300px"><img src="Chart.jpg"></div>
+                                    </div>
+                                </div>
+                        </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div id="tab-studentResult" class="tab-pane fade in">
+                        <div id="tab-general">
+                          <div class="row mbl">
+                            <div class="col-lg-13">
+                             <div class="panel panel-yellow">
+                              <div class="panel-heading">Result (sorted by student)</div>
+                               <div class="panel-body">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>Student Name</th>
+                                        <th>Group</th>
+                                        <th>Test</th>
+                                        <th>Name of Topic</th>
+                                        <th>Sentence</th>
+                                        <th>Added on</th>
+                                        <th>Marks Scored</th>
+                                        <th>Visibility</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Mark</td>
+                                        <td>Group 1</td>
+                                        <td>Test 1</td>
+                                        <td>Topic 1</br>Topic 2</td>
+                                        <td>Birds were chirping </br>The rabbit hopped through the pretty garden
+                                         </br> I ran around the absolutely beautiful city</td>
+                                        <td>23 Fab 2016</td>
+                                        <td></td>
+                                        <td>No</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Group 1</td>
+                                        <td>Test 2</td>
+                                        <td>Topic 3</td>
+                                        <td>The yellow Duck quacked </br>
+                                            The Green Box Fell</td>
+                                        <td>23 March 2016</td>
+                                        <td></td>
+                                        <td>Yes</td>
+
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                          <div class="portlet box">
+                              <div class="portlet-header">
+                                  <div class="caption">Result (Marks by students in tests)</div>
+                                  <div class="tools"><i class="fa fa-chevron-up"></i><i class="fa fa-refresh"></i><i class="fa fa-times"></i></div>
+                              </div>
+                              <div class="portlet-body">
+                                  <div id="bar-chart" style="width: 100%; height:300px"></div>
+                              </div>
+                          </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="panel panel-blue" style="background:#fff;">
+                        <div class="panel-heading">
+                            Write Comment for Student or Group</div>
+                        <div class="panel-body pan">
+                            <form action="#">
+                            <div class="form-body pal">
+                              <div class="row">
+                                              <div class="col-md-8">
+                                                  <div class="form-group">
+                                                    <label for="selectTeacher" class="control-label">
+                                                        Select Student or Group</label>
+                                                      <select class="form-control">
+                                                          <option value="Student 1">Mery</option>
+                                                          <option value="Student 2">Kevin</option>
+                                                          <option value="Group 1">Group 1</option>
+                                                          <option value="Group 2">Group 2</option>
+                                                      </select></div>
+                                              </div>
+                                            </div>
+                                <div class="row">
+
+                                <div class="form-group">
+                                    <textarea rows="4" placeholder="Write your comment here" class="form-control"></textarea>
+                                </div>
+                           </div>
+                            <div class="form-actions text-right pal">
+                                <button type="submit" class="btn btn-primary">
+                                    Submit comment</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                  </div>
+                </div>
+                </div>
+            </div>
+                      <div id="tab-resultTest" class="tab-pane fade in">
+                        <div id="tab-general">
+                          <div class="row mbl">
+                            <div class="col-lg-13">
+                             <div class="panel panel-green">
+                              <div class="panel-heading">Result (sorted by Test)</div>
+                               <div class="panel-body">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+
+                                        <th>Test</th>
+                                        <th>Student Name</th>
+
+                                        <th>Name of Topic</th>
+                                        <th>Sentence</th>
+                                        <th>Added on</th>
+                                        <th>Marks Scored</th>
+                                        <th>Visibility</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+
+                                        <td>Test 1</td>
+
+                                        <td>Mark</br>Smith</td>
+                                        <td>Topic 1</br>Topic 2</td>
+                                        <td>Birds were chirping </br>The rabbit hopped through the pretty garden
+                                         </br> I ran around the absolutely beautiful city</td>
+                                        <td>23 Fab 2016</td>
+                                        <td></td>
+                                        <td>No</td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Test 2</td>
+
+                                        <td>Mary</td>
+                                        <td>Topic 3</td>
+                                        <td>The yellow Duck quacked </br>
+                                            The Green Box Fell</td>
+                                        <td>15 March 2016</td>
+                                        <td></td>
+                                        <td>Yes</td>
+
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="panel panel-blue" style="background:#fff;">
+                          <div class="panel-heading">
+                              Write Comment for student Test wise</div>
+                          <div class="panel-body pan">
+                              <form action="#">
+                              <div class="form-body pal">
+                                <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="form-group">
+                                                      <label for="selectTeacher" class="control-label">
+                                                          Select Test</label>
+                                                        <select class="form-control">
+                                                            <option value="Test 1">Test 1</option>
+                                                            <option value="Test 2">Test 2</option>
+                                                            <option value="Test 3">Test 3</option>
+                                                            <option value="Test 4">Test 4</option>
+                                                        </select></div>
+                                                </div>
+                                              </div>
+                                  <div class="row">
+
+                                  <div class="form-group">
+                                      <textarea rows="5" placeholder="Write your comment here" laceholder class="form-control"></textarea>
+                                  </div>
+                             </div>
+                              <div class="form-actions text-right pal">
+                                  <button type="submit" class="btn btn-primary">
+                                      Submit comment</button>
+                              </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                      </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+                <!--END CONTENT-->
+                <!--BEGIN FOOTER-->
+                <div id="footer">
+                    <div class="copyright">
+                        <a href="http://google.com">2016 Smart Grammar</a></div>
+                </div>
+                <!--END FOOTER-->
+            </div>
+            <!--END PAGE WRAPPER-->
+        </div>
+    </div>
+    <script src="script/jquery-1.10.2.min.js"></script>
+    <script src="script/jquery-migrate-1.2.1.min.js"></script>
+    <script src="script/jquery-ui.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/bootstrap-hover-dropdown.js"></script>
+    <script src="script/html5shiv.js"></script>
+    <script src="script/respond.min.js"></script>
+    <script src="script/jquery.metisMenu.js"></script>
+    <script src="script/jquery.slimscroll.js"></script>
+    <script src="script/jquery.cookie.js"></script>
+    <script src="script/icheck.min.js"></script>
+    <script src="script/custom.min.js"></script>
+    <script src="script/jquery.news-ticker.js"></script>
+    <script src="script/jquery.menu.js"></script>
+    <script src="script/pace.min.js"></script>
+    <script src="script/holder.js"></script>
+    <script src="script/responsive-tabs.js"></script>
+    <script src="script/jquery.flot.js"></script>
+    <script src="script/jquery.flot.categories.js"></script>
+    <script src="script/jquery.flot.pie.js"></script>
+    <script src="script/jquery.flot.tooltip.js"></script>
+    <script src="script/jquery.flot.resize.js"></script>
+    <script src="script/jquery.flot.fillbetween.js"></script>
+    <script src="script/jquery.flot.stack.js"></script>
+    <script src="script/jquery.flot.spline.js"></script>
+    <script src="script/zabuto_calendar.min.js"></script>
+    <script src="script/index.js"></script>
+    <!--LOADING SCRIPTS FOR CHARTS-->
+    <script src="script/highcharts.js"></script>
+    <script src="script/data.js"></script>
+    <script src="script/drilldown.js"></script>
+    <script src="script/exporting.js"></script>
+    <script src="script/highcharts-more.js"></script>
+    <script src="script/charts-highchart-pie.js"></script>
+    <script src="script/charts-highchart-more.js"></script>
+    <!--CORE JAVASCRIPT-->
+    <script src="script/main.js"></script>
+    <script>        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-145464-12', 'auto');
+        ga('send', 'pageview');
+
+
+</script>
+</body>
+</html>
